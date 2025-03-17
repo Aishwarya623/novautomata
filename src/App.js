@@ -7,7 +7,8 @@ import Contact from "./pages/Contact";
 
 const App = () => {
   return (
-    <Router>
+    // Set the basename to match the subdirectory
+    <Router basename="/novautomata">
       <nav>
         <ul>
           <li><Link to="/">Home</Link></li>

@@ -34,6 +34,12 @@ const Home = () => {
     setSection((prev) => (prev - 1 + sections.length) % sections.length);
   };
 
+  // Handle the LinkedIn button click
+  const handleLinkedInClick = (e) => {
+    e.preventDefault();
+    window.open("https://www.linkedin.com/company/nova-enigma/", "_blank");
+  };
+
   return (
     <div className="home-container" style={{ backgroundImage: sections[section].background }}>
       <h1 className="home-title">{sections[section].title}</h1>
@@ -49,15 +55,13 @@ const Home = () => {
         <button className="arrow right" onClick={nextSection}>&gt;</button>
       </div>
 
-      {/* LinkedIn Icon with Link */}
-      <a
-        href="https://www.linkedin.com/company/nova-enigma/"
-        target="_blank"
-        rel="noopener noreferrer"
+      {/* LinkedIn Button */}
+      <button
+        onClick={handleLinkedInClick}
         className="linkedin-icon"
       >
         <FaLinkedin />
-      </a>
+      </button>
     </div>
   );
 };
