@@ -1,0 +1,68 @@
+/* Services Page Main Container */
+.services-container {
+    text-align: center;
+    background: #f8f9fa;
+    padding-bottom: 50px;
+}
+
+
+
+.services-header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.services-header h2 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    opacity: 0.9;
+}
+
+/* Banner Image */
+.services-banner img {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+/* Service Sections */
+.services-list {
+    margin-top: 50px;
+}
+
+.service-section {
+    background: black;
+    color: white;
+    padding: 50px;
+    max-width: 1200px;
+    margin: 30px auto;
+    border-radius: 10px;
+    text-align: left;
+    transition: transform 0.3s;
+}
+
+.service-section:hover {
+    transform: scale(1.02);
+}
+
+/* Service Content */
+.service-content h2 {
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+.service-content p {
+    font-size: 1rem;
+    line-height: 1.6;
+    opacity: 0.9;
+}
+
+/* Responsive Design */
+@media (max-width: 900px) {
+    .service-section {
+        text-align: center;
+    }
+}
