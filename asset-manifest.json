@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/novautomata/static/css/main.2aa85db7.css",
-    "main.js": "/novautomata/static/js/main.3642728b.js",
+    "main.js": "/novautomata/static/js/main.bd0f726c.js",
     "static/js/453.9ec24657.chunk.js": "/novautomata/static/js/453.9ec24657.chunk.js",
     "index.html": "/novautomata/index.html",
     "main.2aa85db7.css.map": "/novautomata/static/css/main.2aa85db7.css.map",
-    "main.3642728b.js.map": "/novautomata/static/js/main.3642728b.js.map",
+    "main.bd0f726c.js.map": "/novautomata/static/js/main.bd0f726c.js.map",
     "453.9ec24657.chunk.js.map": "/novautomata/static/js/453.9ec24657.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2aa85db7.css",
-    "static/js/main.3642728b.js"
+    "static/js/main.bd0f726c.js"
   ]
 }
